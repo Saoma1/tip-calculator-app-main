@@ -176,6 +176,10 @@ input {
 }
 
 @media (max-width: 1230px) {
+  .container {
+    height: 100% !important;
+    padding-bottom: 1rem;
+  }
   .title {
     margin-top: 2rem;
     margin-bottom: 4rem !important;
@@ -195,6 +199,7 @@ input {
 @media (max-width: 1000px) {
   .container {
     width: 100% !important;
+    height: 100% !important;
   }
   main {
     width: 80%;
