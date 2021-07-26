@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style/style.css">
+
+
+  <title>Tip calculator app</title>
+</head>
+<body>
+  <div class="container">
+    <div class="title">
+      <h2>SLII <br> TTER</h2>
+    </div>
+    <main>
+      <div class="wrapper">
+        <div class="column">
+          <section>
+            <p>Bill</p>
+            <div class="left-inner-icon">
+              <input type="text" id="bill" name="bill" placeholder="total amount">
+              <img src="./images/icon-dollar.svg" alt="dollar icon">
+            </div>
+          </section>
+          <p>Select Tip %</p>
+          <section id="tip">
+            <div class="tip" id="0.05">5%</div>
+            <div class="tip" id="0.10">10%</div>
+            <div class="tip" id="0.15">15%</div>
+            <div class="tip" id="0.25">15%</div>
+            <div class="tip" id="0.50">50%</div>
+            <input class='tip custom_tip' type="text" name="bill" placeholder="Custom">
+          </section>
+          <section>
+            <p>Number of people</p>
+            <div class="left-inner-icon">
+              <input type="text" id="nr_ppl" name="number of people" placeholder="# of people">
+              <img src="./images/icon-person.svg" alt="dollar icon">
+            </div>
+          </section>
+        </div>
+
+        <div class="column bg">
+          <div>
+            <div class="total">
+              <div>
+                <p>Tip Amount</p>
+                <p><small>/person</small></p>
+              </div>
+              <input type="text" id="total_tip" name="bill" placeholder="$0.00">
+            </div>
+            <div class="total">
+              <div>
+                <p>Total</p>
+                <p><small>/person</small></p>
+              </div>
+              <input type="text" id="total" name="bill" placeholder="$0.00">
+            </div>
+          </div>
+          <div id="reset">RESET</div>
+        </div>
+      </main>
+    </div>
+  </body>
+  <script src="./js/inputs.js"></script>
+  </html>

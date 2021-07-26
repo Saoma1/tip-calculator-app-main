@@ -1,0 +1,53 @@
+// external
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;500;700&display=swap');
+
+// internal
+@import "variables";
+@import "main";
+
+body {
+  margin: 0;
+  font-family: 'Space Mono';
+  background-color: $background;
+}
+
+.container {
+  max-width: 1440px;
+  width: 90%;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: $Lightgrayishcyan;
+}
+
+.title {
+  color: $title;
+  letter-spacing: 0.6rem;
+  margin-bottom: 6rem;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+p {
+  font-weight: 700;
+  color: $Darkgrayishcyan;
+  margin: 0;
+  padding-bottom: .5rem;
+}
+
+section:not(:last-child) {
+  padding-bottom: 1.5rem;
+}
